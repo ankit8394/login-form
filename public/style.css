@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: url("assets/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+form{
+    background: rgba(0, 0, 0, 0.642);
+    backdrop-filter: blur(3px);
+    border-radius: 16px;
+    gap: 32px;
+    padding:50px 40px 50px 40px;
+    color: #fff;
+}
+form div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+form h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 45px;
+    font-weight: 700;
+}
+label{
+    font-size: 22px;
+}
+#btn{
+    background: #ff884d;
+    color: #fff;
+    font-weight:700;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 80px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .15s ease-in;
+}
+form hr{
+    opacity: 1;
+    margin-top: -5px;
+}
+button:hover{
+    transform: scale(1.05);
+}
+#pass, #name, #email{
+    border: none;
+    width: 300px;
+    background: transparent;
+    padding: 10px;
+}
+input{
+    all: unset;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 420px) {
+    form{
+        gap: 12px;
+        padding:30px 20px 30px 20px;
+    }
+    #pass, #name, #email{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 279px){
+    #pass, #name, #email{
+        width: 150px;
+    }
+}
+@media screen and (max-width: 230px){
+    #pass, #name, #email{
+        width: 90px;
+    }
+}
