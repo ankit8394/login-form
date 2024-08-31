@@ -1,6 +1,8 @@
 # Login form Glass effect
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Glass-Effect Login page aims to create a transparent, ethereal effect, often with a blurred background and subtle gradients.
+This design aesthetic is popular for its modern and sleek appearance.
 
 ## Available Scripts
 
